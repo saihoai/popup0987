@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'ang';
+    src: url('avenirnextltpro-regular.eot');
+    src: url('avenirnextltpro-regular.eot') format('embedded-opentype'),
+         url('avenirnextltpro-regular.woff') format('woff'),
+         url('avenirnextltpro-regular.ttf') format('truetype'),
+         url('avenirnextltpro-regular.svg#AvenirNextLTProRegular') format('svg');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+body {
+    font: 15px ang;
+}
+.i {
+    background: url("../images/icon.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: block;
+    height: 32px;
+    text-indent: -9999px;
+    width: 32px;
+}
+.i.mail {
+    background-position: center top;
+    margin: 10px auto 0;
+}
+.i.cancel {
+    background-position: left -100px;
+    float: left;
+    height: 50px;
+    margin: 0 10px 0 0;
+}
+.i.send {
+    background-position: right -100px;
+    height: 50px;
+    width: 35px;
+}
+.i.favorite {
+    background-position: left -185px;
+}
+.i.attachment {
+    background-position: right -185px;
+}
+.i.oval {
+    background-position: left -255px;
+}
+.i.down {
+    background-position: right -255px;
+}
+
+.nav {
+    background: url("../images/nav.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 44px;
+    position: relative;
+    width: 800px;
+}
+.wrapper {
+    background: url("../images/bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 600px;
+    margin: 0 auto;
+    width: 800px;
+}
+.box {
+    background: none repeat scroll 0 0 #FFFFFF;
+    left: 0;
+    margin: 80px auto;
+    position: absolute;
+    right: 0;
+    width: 620px;
+}
+.header {
+    background: url("../images/header.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    margin: -40px 0 0;
+    color: #FFFFFF;
+    font-size: 30px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.inner {
+    padding: 30px 20px 20px;
+}
+.pull-left {
+    float: left;
+}
+.pull-right {
+    float: right;
+}
+.review {
+    background: url("../images/line.png") no-repeat scroll left bottom rgba(0, 0, 0, 0);
+    clear: both;
+    font-size: 20px;
+    margin: 0 0 15px;
+    padding: 0 0 20px;
+}
+.name {
+    margin: 0 10px 0 0;
+}
+.body .inner {
+    padding: 20px;
+}
